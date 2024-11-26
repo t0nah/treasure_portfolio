@@ -2,12 +2,18 @@ import React from "react";
 
 const Resources = () => {
   return (
-    <section id="resources" className="py-16 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-200">
+    <section
+      id="resources"
+      className="py-16 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-200"
+    >
       <div className="container mx-auto px-6">
         {/* Section Heading */}
-        <h2 className="text-4xl font-extrabold mb-6 text-center text-teal-400">Resources</h2>
+        <h2 className="text-4xl font-extrabold mb-6 text-center text-teal-400">
+          Resources
+        </h2>
         <p className="text-lg text-gray-400 text-center max-w-2xl mx-auto mb-10">
-          A curated list of tools and guides that have shaped my development journey:
+          A curated list of tools and guides that have shaped my development
+          journey:
         </p>
 
         {/* Resources List */}

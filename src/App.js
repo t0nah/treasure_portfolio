@@ -16,7 +16,6 @@ function App() {
         <Skills />
         <Resources />
         <DevSetup />
-
       </main>
     </div>
   );

@@ -31,13 +31,24 @@ const Projects = () => {
             <div
               key={index}
               className="p-6 bg-gray-800 rounded-lg shadow-lg hover:shadow-2xl transition"
+            >
+              <h3
+                className="text-2xl font-normal"
+                style={{
+                  fontFamily: "'Instrument Sans', sans-serif",
+                  textTransform: "uppercase",
+                }}
               >
-              <h3 className="text-2xl font-normal" style={{ fontFamily: "'Instrument Sans', sans-serif", textTransform: "uppercase" }}>{project.title}</h3>
+                {project.title}
+              </h3>
               <p className="text-gray-400">{project.description}</p>
               <p className="mt-4">
                 <strong>Tech:</strong> {project.tech.join(", ")}
               </p>
-              <a href={project.link} className="text-accent hover:underline mt-4 block">
+              <a
+                href={project.link}
+                className="text-accent hover:underline mt-4 block"
+              >
                 View Project
               </a>
             </div>
